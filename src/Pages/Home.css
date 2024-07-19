@@ -1,0 +1,98 @@
+.responsive {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.welcomeP{
+    padding: 10px;
+    margin-top: 10px;
+    color: #f4f4f4;
+}
+
+.div2{
+    background-color: #333;
+    padding: 10px;
+}
+
+.div3{
+    padding: 10px;
+}
+.stuImage{
+    width: 150px;
+    height: 170px;
+    align-items: center;
+    border-radius: 200px;
+}
+
+.div1 {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: peru;
+    width: 99%;
+    color: #fff;
+    padding: 5px;
+    margin-top: 50px ;
+    min-height: 70px;
+}
+
+.intro-section, .info-section, .contact-section {
+    padding: 20px 0;
+}
+
+.intro-section {
+    background: #f4f4f4;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    margin-top: 50px;
+}
+
+.info-about {
+    background: #fff;
+    width: 30%;
+    background-color: rgb(4, 8, 0);
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 100px;
+    padding-left: 20px;
+    color: whitesmoke;
+}
+
+.info-features{
+    background: #fff;
+    width: 30%;
+    background-color: rgb(4, 8, 0);
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 200px;
+    color: whitesmoke;
+
+}
+
+.contact-section {
+    background: silver;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 100px;
+    color: black;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

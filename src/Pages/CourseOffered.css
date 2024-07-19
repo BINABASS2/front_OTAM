@@ -1,0 +1,117 @@
+body.course-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header.offer {
+    background-color: grey;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header.offer .div1 h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+section.course-catalogue {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section.course-catalogue .course-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mainH {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #4CAF50;
+}
+
+table.course-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table.course-list th,
+table.course-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table.course-list th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+table.course-list img {
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+table.course-list td p {
+    margin: 0;
+}
+
+table.course-list td ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+table.course-list button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+table.course-list button:hover {
+    background-color: peru;
+}
+
+button[onclick="addCourse()"] {
+    display: block;
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer pre {
+    margin: 0;
+}

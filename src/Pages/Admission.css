@@ -1,0 +1,98 @@
+.admit-body {
+    font-family: Arial, sans-serif;
+    background-color: silver;
+    margin-top: 0;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    height: 115vh;
+    background-color: papayawhip;
+    font-family: Arial, sans-serif;
+    color: gray;
+}
+
+.fillForm{
+  background-color: black;
+  margin-top: 50px;
+  padding: 40px;
+  text-align: center;
+  color: peru;
+}
+
+.tuition{
+  width: 150px;
+  height: 200px;
+  border-radius: 500px;
+}
+
+.GuideLine{
+  margin: 20px;
+  color: peru;
+}
+
+.form-box{
+  align-items: center;
+}
+
+.admit-container {
+    max-width: 500px;
+    margin-right: 100px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: black;
+    padding: 2rem;
+
+  }
+  .option{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: peru;
+  }
+
+.admit-form-group {
+    margin-bottom: 10px;
+  }
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea {
+  width: 99%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  button:hover {
+    background-color: red;
+  }
+  

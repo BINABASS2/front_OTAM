@@ -1,0 +1,55 @@
+.adminBody {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    width: 100%;
+    background-color: silver;
+    align-items: center;
+}
+
+form {
+    max-width: 400px;
+    height: 35rem;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: black;
+    border-radius: 50px;
+    color: black;
+}
+.adminImg{
+    color: white;
+}
+
+.adminmaterial{
+    color: white;
+}
+
+form .adminh2{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+input[type="text"], input[type="file"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
